@@ -36,6 +36,7 @@ function checkAnswer(answer: string, correctAnswer: string) {
 function finishGame() {
   const resultsHistory: Result[] =
     JSON.parse(localStorage.getItem("resultsHistory") as string) || [];
+  console.log(gameInfo.category);
   const newResult: Result = {
     category: gameInfo.category,
     type: gameInfo.type,

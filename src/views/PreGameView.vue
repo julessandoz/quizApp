@@ -48,7 +48,7 @@ async function startGame() {
     );
 
     const gameInfo = {
-      categoryId: pickedCategory.value == " " ? "-1" : pickedCategory.value,
+      category: pickedCategory.value == " " ? "-1" : pickedCategory.value,
       type: pickedType.value,
       difficulty: pickedDifficulty.value,
       questions: questions,

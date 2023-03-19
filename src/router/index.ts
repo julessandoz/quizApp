@@ -23,12 +23,12 @@ const router = createRouter({
       }
     },
     {
-      path: '/profile',
-      name: 'profile',
-      component: () => import('../views/ProfileView.vue'),
+      path: '/about',
+      name: 'about',
+      component: () => import('../views/Aboutview.vue'),
       meta: {
-        icon: ['fas', 'user'],
-        title: 'Profile'
+        icon: ['fas', 'question'],
+        title: 'About'
       }
     },
     {
@@ -43,7 +43,7 @@ const router = createRouter({
         {
           path: '/game/quiz',
           name: 'quiz',
-          component: () => import('../views/Quizview.vue'),
+          component: () => import('../views/QuizView.vue'),
         },
         {
           path: '/game/results',

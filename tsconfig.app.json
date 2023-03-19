@@ -1,8 +1,9 @@
 {
   "extends": "@vue/tsconfig/tsconfig.web.json",
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/components/**/*", "src/views/**/*", "src/router/*", "src/utils/*"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
+    "target": "ES2020",
     "composite": true,
     "baseUrl": ".",
     "paths": {
@@ -10,6 +11,6 @@
     },
     "noImplicitAny": true,
     "strict": true,
-    "noEmitOnError": true
+    "noEmitOnError": true,
   }
 }

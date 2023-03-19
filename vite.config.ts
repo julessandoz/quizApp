@@ -10,5 +10,10 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  build: {
+    watch: {
+      include: ['src/components/**/**', 'src/views/**/**', 'src/router/**', 'src/utils/**']
+    },
   }
 })
