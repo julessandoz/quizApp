@@ -10,16 +10,12 @@ The Quiz App uses the Open Trivia Database API to generate quiz questions. This 
 
 To use Quiz App, simply [download](https://github.com/[username]/[repository]/archive/refs/heads/main.zip) or clone the repository:
     
-    ```bash
     git clone https://github.com/julessandoz/quizApp.git
-    ```
 
 Then run the following commands to install the dependencies and start the application:
 
-    ```bash
     npm install
     npm run dev
-    ```
 
 ## Contributing
 
