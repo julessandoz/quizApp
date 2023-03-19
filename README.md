@@ -8,7 +8,7 @@ The Quiz App uses the Open Trivia Database API to generate quiz questions. This 
 
 ## How to Use
 
-To use Quiz App, simply [download](https://github.com/[username]/[repository]/archive/refs/heads/main.zip) or clone the repository:
+To use Quiz App, simply clone the repository:
     
     git clone https://github.com/julessandoz/quizApp.git
 
@@ -23,4 +23,4 @@ If you would like to contribute to Quiz App, please fork the repository and make
 
 ## License
 
-Quiz App is licensed under the [MIT License](LICENSE).
+Quiz App is licensed under the [MIT License](LICENSE.md).
